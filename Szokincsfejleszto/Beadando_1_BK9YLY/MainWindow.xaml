@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="Beadando_1_BK9YLY.MainWindow" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:local="clr-namespace:Beadando_1_BK9YLY"
+	mc:Ignorable="d"
+	Title="MainWindow"
+	Height="350"
+	Width="525">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource ="fapadlo.jpg" />
+        </Grid.Background>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64*" />
+            <RowDefinition Height="64*" />
+            <RowDefinition Height="101*" />
+            <RowDefinition Height="37*" />
+            <RowDefinition Height="54*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+
+
+        <Button x:Name="btn1" Grid.Column="1" Grid.ColumnSpan="5" Content="Kérek egy szót" FontWeight="ExtraBold"
+                FontSize="15" FontFamily="Rockwell" Foreground="CornflowerBlue"  Click="btn1_Click" Margin="0,10" Background="PowderBlue" />
+        <TextBlock  x:Name="A"   Grid.Row="3" Grid.Column="0"  Text="A" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Á"   Grid.Row="3" Grid.Column="1"  Text="Á" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="B"   Grid.Row="3" Grid.Column="2"  Text="B" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk"  />
+        <TextBlock  x:Name="C"   Grid.Row="3" Grid.Column="3"  Text="C" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="D"   Grid.Row="3" Grid.Column="4"  Text="D" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="E"   Grid.Row="3" Grid.Column="5"  Text="E" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="É"   Grid.Row="3" Grid.Column="6"  Text="É" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="F"   Grid.Row="3" Grid.Column="7"  Text="F" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="G"   Grid.Row="3" Grid.Column="8"  Text="G" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="H"   Grid.Row="3" Grid.Column="9"  Text="H" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="I"   Grid.Row="3" Grid.Column="10" Text="I" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Í"   Grid.Row="3" Grid.Column="11" Text="Í" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="J"   Grid.Row="3" Grid.Column="12" Text="J" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="K"   Grid.Row="3" Grid.Column="13" Text="K" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="L"   Grid.Row="3" Grid.Column="14" Text="L" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="M"   Grid.Row="3" Grid.Column="15" Text="M" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="N"   Grid.Row="3" Grid.Column="16" Text="N" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="O"   Grid.Row="3" Grid.Column="17" Text="O" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Ó"   Grid.Row="4" Grid.Column="0"  Text="Ó" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Ö"   Grid.Row="4" Grid.Column="1"  Text="Ö" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Ő"   Grid.Row="4" Grid.Column="2"  Text="Ő" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="P"   Grid.Row="4" Grid.Column="3"  Text="P" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Q"   Grid.Row="4" Grid.Column="4"  Text="Q" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="R"   Grid.Row="4" Grid.Column="5"  Text="R" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="S"   Grid.Row="4" Grid.Column="6"  Text="S" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="T"   Grid.Row="4" Grid.Column="7"  Text="T" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="U"   Grid.Row="4" Grid.Column="8"  Text="U" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Ú"   Grid.Row="4" Grid.Column="9"  Text="Ú" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Ü"   Grid.Row="4" Grid.Column="10" Text="Ü" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Ű"   Grid.Row="4" Grid.Column="11" Text="Ű" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="V"   Grid.Row="4" Grid.Column="12" Text="V" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="W"   Grid.Row="4" Grid.Column="13" Text="W" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="X"   Grid.Row="4" Grid.Column="14" Text="X" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Y"   Grid.Row="4" Grid.Column="15" Text="Y" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock  x:Name="Z"   Grid.Row="4" Grid.Column="16" Text="Z" TextBlock.FontSize="20" FontFamily="Rockwell" FontWeight="ExtraBold"  MouseLeftButtonDown="Togklikk" />
+        <TextBlock Grid.Row="4" Grid.Column="17" Text="" />
+        <TextBox x:Name="kitalalando" FontSize="16" Grid.Column="0" Grid.ColumnSpan="10" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                 Margin="27,16,0,0" Height="30" />
+
+        <Canvas  Grid.Column="11" Grid.ColumnSpan="6" Grid.Row="0" Grid.RowSpan="3" Margin="0,10,0,0" >
+             </Canvas>
+
+        <Line  x:Name="af1"   Stroke="Brown"  StrokeThickness="3" X1="63" X2="15" Y1="97" Y2="97"   Visibility="Hidden"  Grid.Column="11" Grid.Row="2" Grid.ColumnSpan="3"   />
+        <Line  x:Name="af2"   Stroke="Brown"   StrokeThickness="3" X1="10" X2="25" Y1="60" Y2="98"  Visibility="Hidden"  Grid.Column="12" Grid.Row="2"  />
+        <Line  x:Name="af3"   Stroke="Brown"  StrokeThickness="3" X1="38" X2="22" Y1="60" Y2="98"   Visibility="Hidden"  Grid.Column="11" Grid.Row="2" Grid.ColumnSpan="2"   />
+        <Line  x:Name="af4"   Stroke="Brown"   StrokeThickness="3" X1="10" X2="10" Y1="5" Y2="100"  Visibility="Hidden"  Grid.Column="12" Grid.Row="2"  />
+        <Line  x:Name="af5"   Stroke="Brown"   StrokeThickness="3" X1="10" X2="10" Y1="4" Y2="70"   Visibility="Hidden"   Grid.Column="12" Grid.Row="1" Grid.RowSpan="2" />
+        <Line  x:Name="af6"   Stroke="Brown"   StrokeThickness="3" X1="8" X2="74" Y1="5" Y2="5"     Visibility="Hidden"  Grid.Column="12" Grid.ColumnSpan="3" Grid.Row="1"  />
+        <Line  x:Name="af7"   Stroke="Brown"   StrokeThickness="3" X1="27" X2="10" Y1="5" Y2="30"   Visibility="Hidden" Grid.Column="12" Grid.Row="1" />
+        <Line  x:Name="af8"   Stroke="Brown"   StrokeThickness="3" X1="15" X2="15" Y1="5" Y2="30"   Visibility="Hidden"  Grid.Column="14" Grid.Row="1" />
+        <Line  x:Name="af10"   Stroke="Black"   StrokeThickness="3" X1="15" X2="15" Y1="45" Y2="80" Visibility="Hidden"  Grid.Column="14" Grid.Row="1" Grid.RowSpan="2"   />
+        <Line  x:Name="af11"   Stroke="Black"   StrokeThickness="3" X1="15" X2="30" Y1="55" Y2="85" Visibility="Hidden"  Grid.Column="14" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Line  x:Name="af12"   Stroke="Black"   StrokeThickness="3" X1="44" X2="30" Y1="55" Y2="85" Visibility="Hidden" Grid.Column="13" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2" />
+        <Line  x:Name="af13"  Stroke="Black"   StrokeThickness="3" X1="15" X2="2" Y1="15" Y2="57"   Visibility="Hidden" Grid.Column="14" Grid.Row="2" Grid.ColumnSpan="2"  />
+        <Line  x:Name="af14"  Stroke="Black"   StrokeThickness="3" X1="15" X2="27" Y1="15" Y2="57"  Visibility="Hidden" Grid.Column="14" Grid.Row="2" Grid.ColumnSpan="2"  />
+        <Ellipse x:Name="af9" Stroke="Black" StrokeThickness="3" Visibility="Hidden" Grid.Column="14" Grid.Row="1"  RenderTransformOrigin="0.5,0.9" Margin="5,29,4,16"  />
+
+    </Grid>
+</Window>
