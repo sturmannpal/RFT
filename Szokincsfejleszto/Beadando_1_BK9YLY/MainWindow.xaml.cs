@@ -141,7 +141,7 @@ namespace Beadando_1_BK9YLY
                         af13.Visibility = System.Windows.Visibility.Visible;
                     if (counter == 14)
                       
-                    {af14.Visibility = System.Windows.Visibility.Visible;
+                    {                        af14.Visibility = System.Windows.Visibility.Visible;
                         MessageBoxResult result = MessageBox.Show("Vesztettél!" + Environment.NewLine + "Új játék indítása ?", "EREDMÉNY", MessageBoxButton.YesNo);
                         switch (result)
                         {
@@ -149,6 +149,10 @@ namespace Beadando_1_BK9YLY
                                 this.Hide();
                                 System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
                                 break;
+                            case MessageBoxResult.No:
+                                System.Diagnostics.Process.GetCurrentProcess().Kill();
+                                break;
+                        }
 
                     }
 
@@ -156,6 +160,10 @@ namespace Beadando_1_BK9YLY
                     counter++;
                 }
             }
+            else
+            {
+                MessageBox.Show("Nem választott ki elemet!");
+            }
         }
     }
-
+}
