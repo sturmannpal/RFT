@@ -96,7 +96,7 @@ namespace Beadando_1_BK9YLY
                     if (eredeti == szavak2)
                     {
                         MessageBox.Show("Gratulálok! Kitaláltad!");
-                        btn1.Content = "Új szót kérek!";
+                      
                         return;
                     }
                        
