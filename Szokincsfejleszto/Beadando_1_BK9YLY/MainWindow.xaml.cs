@@ -141,11 +141,15 @@ namespace Beadando_1_BK9YLY
                         af13.Visibility = System.Windows.Visibility.Visible;
                     if (counter == 14)
                       
-                    {
-                        af14.Visibility = System.Windows.Visibility.Visible;
-                        MessageBox.Show("Vesztettél!");
-                        btn1.Content = "Új szót kérek!";
-                        return;
+                    {af14.Visibility = System.Windows.Visibility.Visible;
+                        MessageBoxResult result = MessageBox.Show("Vesztettél!" + Environment.NewLine + "Új játék indítása ?", "EREDMÉNY", MessageBoxButton.YesNo);
+                        switch (result)
+                        {
+                            case MessageBoxResult.Yes:
+                                this.Hide();
+                                System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+                                break;
+
                     }
 
                     b.Visibility = System.Windows.Visibility.Hidden;
