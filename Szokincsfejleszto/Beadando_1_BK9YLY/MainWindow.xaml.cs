@@ -95,10 +95,19 @@ namespace Beadando_1_BK9YLY
                     b.Visibility = System.Windows.Visibility.Hidden;
                     if (eredeti == szavak2)
                     {
-                        MessageBox.Show("Gratulálok! Kitaláltad!");
-                      
-                        return;
+                        MessageBoxResult result = MessageBox.Show("Nyertél!" + Environment.NewLine + "Új játék indítása ?", "EREDMÉNY", MessageBoxButton.YesNo);
+                        switch (result)
+                        {
+                            case MessageBoxResult.Yes:
+                                this.Hide();
+                                System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+                                break;
+                            case MessageBoxResult.No:
+                                System.Diagnostics.Process.GetCurrentProcess().Kill();
+                                break;
+                        }
                     }
+
                        
 
           }
